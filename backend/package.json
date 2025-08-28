@@ -1,8 +1,8 @@
 {
-  "name": "medusa-starter-default",
+  "name": "omtc-pro-backend",
   "version": "0.0.1",
-  "description": "A starter for Medusa projects.",
-  "author": "Medusa (https://medusajs.com)",
+  "description": "OMTC PRO e-commerce backend built with Medusa.js",
+  "author": "OMTC PRO Team",
   "license": "MIT",
   "keywords": [
     "sqlite",
@@ -10,7 +10,8 @@
     "typescript",
     "ecommerce",
     "headless",
-    "medusa"
+    "medusa",
+    "omtc-pro"
   ],
   "scripts": {
     "build": "medusa build",
