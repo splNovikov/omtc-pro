@@ -4,6 +4,11 @@ import "styles/globals.css"
 
 export const metadata: Metadata = {
   metadataBase: new URL(getBaseURL()),
+  title: {
+    template: 'ОМТС ПРО',
+    default: 'ОМТС ПРО - онлайн магазин специального оборудования и техники'
+  },
+  description: 'ОМТС ПРО - онлайн магазин специального оборудования и техники',
 }
 
 export default function RootLayout(props: { children: React.ReactNode }) {

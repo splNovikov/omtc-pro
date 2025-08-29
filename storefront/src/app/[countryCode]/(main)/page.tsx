@@ -6,7 +6,7 @@ import { listCollections } from "@lib/data/collections"
 import { getRegion } from "@lib/data/regions"
 
 export const metadata: Metadata = {
-  title: "ОМТС ПРО",
+  title: "Главная",
   description:
     "ОМТС ПРО - онлайн магазин специального оборудования и техники",
 }
