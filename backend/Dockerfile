@@ -16,5 +16,6 @@ COPY . .
 # Expose the port Medusa runs on
 EXPOSE 9000
 
-# Start with migrations and then the development server
+# Start with migrations and then the development server (no seeding by default)
+# For first-time setup, use: docker run <image> ./first-start.sh
 CMD ["./start.sh"]

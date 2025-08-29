@@ -1,0 +1,7 @@
+# Docker Compose для первого запуска с seed данными
+# Использование: docker-compose -f docker-compose.yml -f docker-compose.first-start.yml up
+
+services:
+  # Переопределяем команду для medusa сервиса - используем first-start.sh
+  medusa:
+    command: ["./first-start.sh"]
